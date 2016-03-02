@@ -1,15 +1,15 @@
 var isSame = function(ar) {
-  var hold = "";
+  var hold = ar.length;
   for (i = 0; i <= ar.length; i++) {
-    hold = ar[i - 1];
-    if (ar.length === 0){
-    return "Use an array of a length of at least 1";
+    hold--;
+    if (ar.length <= 1 || typeof ar[i] != "string"){
+    return false;
     }
-    else if (ar[i] === hold){
-      return "true";
+    else if (ar[i] === ar[i + 1]){
+      return true;
     }
-    else if (i === ar.length) {
-      return "false";
+    else if (hold === 0) {
+      return false;
     }
   }
 }
@@ -19,3 +19,8 @@ console.log(isSame(["F", "G", "F", "R"]));
 console.log(isSame(["F", "R", "R"]));
 console.log(isSame([""]));
 console.log(isSame([]));
+console.log(isSame([2, 3, 4, 5, 1, 1]));
+console.log(isSame([undefined]));
+console.log(isSame(["Bill", "bill", "Bill", undefined, undefined]));
+console.log(1==2 || typeof 1 != "String");
+console.log(typeof "dog" == "string");
