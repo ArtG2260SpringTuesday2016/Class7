@@ -9,6 +9,7 @@ var listOfNames2 = ["Joe", "bill", "George"];
 var listOfNames3 = ["Amy", "Jane", "Jill"];
 var listOfNames4 = ["Bill"];
 var listOfNames5 = ["Bill", "bill", "Bill", undefined]
+var listOfNames6 = ["Bill", "bill", "Bill", undefined, undefined] // Anthony Only.
 ```
 
 and outputs a boolean, `true` if two names are the same in a row.
@@ -23,6 +24,7 @@ isSameNameTwice(listOfNames2) // -> false
 isSameNameTwice(listOfNames3) // -> false
 isSameNameTwice(listOfNames4) // -> false
 isSameNameTwice(listOfnames5) // -> false
+isSameNameTwice(listOfnames6) // -> false
 ```
 
 You can test using `console.log(isSameNameTwice(listOfNames))`
