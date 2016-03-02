@@ -3,6 +3,7 @@ var listOfNames1 = ["bill", "Bill", "Bill"];
 var listOfNames2 = ["Joe", "bill", "George"];
 var listOfnames3 = ["Amy", "Jane", "Jill"];
 var listOfnames4 = ["Bill"];
+var listOfNames5 = ["Bill", "bill", "Bill", undefined]
 
 var isSamenametwice = function(anArray){
   for(var i = 0; i < anArray.length; i ++){
@@ -19,5 +20,5 @@ if(i > 0){
     return false;}
   }
 }
-console.log(isSamenametwice(listOfNames1));
+console.log(isSamenametwice(listOfNames4));
 
