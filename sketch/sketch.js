@@ -22,5 +22,3 @@ console.log(isSame([]));
 console.log(isSame([2, 3, 4, 5, 1, 1]));
 console.log(isSame([undefined]));
 console.log(isSame(["Bill", "bill", "Bill", undefined, undefined]));
-console.log(1==2 || typeof 1 != "String");
-console.log(typeof "dog" == "string");
