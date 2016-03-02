@@ -12,7 +12,7 @@ var isSameNameTwice=function(anArray){
       return false;
     }
     if(i>0){
-      if(anArray[i]===anArray[i+1] && i!==undefined){
+      if(anArray[i]===anArray[i+1] && typeof anArray[i]=== 'string'){
         return true;
       }
       else{
