@@ -1,7 +1,8 @@
-var listofNames0=["blueberry", "apple", "peach"];
-var listofNames1=["blueberry", "apple", "apple"];
-var listofNames2=["peach","blueberry", "strawberry"];
-var listofNames3=["kiwi", "potato", "tomato"];
+var listofNames0=["Talia", "Joana", "Amy"];
+var listofNames1=["bill", "Bill", "Bill"];
+var listofNames2=["Joe", "Bill", "George"];
+var listofNames3=["Amy", "Jane", "Jill"];
+var listofNames4=["Bill"];
 
 var isSameNameTwice=function(anArray){
   for (var i=0; i<anArray.length; i++){
@@ -23,3 +24,4 @@ console.log(isSameNameTwice(listofNames0))
 console.log(isSameNameTwice(listofNames1))
 console.log(isSameNameTwice(listofNames2))
 console.log(isSameNameTwice(listofNames3))
+console.log(isSameNameTwice(listofNames4))
