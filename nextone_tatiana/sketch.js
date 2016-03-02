@@ -2,6 +2,9 @@ var listOfNames0 = ["Talia", "Joana", "Amy"];
 var listOfNames1 = ["bill", "Bill", "Bill"];
 var listOfNames2 = ["Joe", "Bill", "George"];
 var listOfNames3 = ["Amy", "Joana", "Jill"];
+var listOfNames4 = ["Bill"];
+var listOfNames5 = ["Bill", "bill", "Bill", undefined];
+
 
 
   var isSameNameTwice  = function(anArray){
